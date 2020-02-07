@@ -1,0 +1,1 @@
+<button type="button" class="btn {{ env('THEME') ? 'btn-raised' : '' }} btn-danger btn-icon icon-left" @if(isset ($disabled)){{$disabled}} @endif @if(isset($onclick))onclick="{{$onclick}}" @endif > @icon(["class" => "fa fa-trash"])@endicon &nbsp {{ $label ?? '' }}</button>

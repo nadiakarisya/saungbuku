@@ -1,0 +1,1 @@
+<button type="button" class="btn {{ config('view.theme') ? 'btn-raised' : '' }} btn-default btn-raised btn-icon icon-left" data-dismiss="{{$target}}">@icon(["class" => "fa fa-times"])@endicon {{$label??'BATAL'}}</button>

@@ -1,0 +1,16 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc {
+    background-image : none !important;
+}
+
+.text-light { font-weight: 200; }
+.text-bold {font-weight: 600; }
+.text-right { text-align: right; }
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-justify { text-align: justify; }
+.table { font-size: 14px; font-weight: 400; }

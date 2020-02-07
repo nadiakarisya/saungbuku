@@ -1,0 +1,39 @@
+
+/* CSS Document */
+h3 {
+ font-family:Arial, Helvetica, sans-serif;
+ }
+table, th, td {
+ /*border-collapse:collapse; */
+ /*border:2px solid #999; */
+ font-family:Tahoma, Geneva, sans-serif;
+ font-size:12px;
+}
+
+.head th {
+ padding:10px;
+ color:#333;
+ text-shadow:1px 1px 0px #CCC;
+ font-size:18px;
+}
+
+.head2 th {
+ padding:10px;
+ color:#333;
+ text-shadow:1px 1px 0px #CCC;
+ font-size:16px;
+}
+
+.ganjil {
+ background-color:#CECECE;
+}
+
+.genap {
+ background-color:#E0E0E0;
+}
+
+.ganjil:hover, .genap:hover {
+ background-color:#00FF33;
+ font-weight:bold;
+ cursor:pointer;
+}

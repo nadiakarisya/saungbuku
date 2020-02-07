@@ -1,0 +1,1 @@
+<a href="{{ $href }}" class="btn {{ config('view.theme') ? 'btn-raised' : '' }} btn-primary btn-icon icon-left">@icon(["class" => "fa fa-pencil"])@endicon &nbspVIEW</a>
